@@ -1,0 +1,131 @@
+body {
+    position: absolute;
+    width: 1440px;
+    height: 1504px;
+    left: 0px;
+    top: 0px;
+
+    background: #CBCBCB;
+}
+
+.bg2 {
+    position: absolute;
+    width: 1440px;
+    height: 846px;
+    left: 0px;
+    top: 0px;
+
+    background: url(img/bg2.png);
+}
+
+h1 {
+    position: absolute;
+    width: 492px;
+    height: 67.32px;
+    left: 472px;
+    top: 153.48px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+h2{
+    position: absolute;
+    width: 325px;
+    height: 26.03px;
+    left: 558px;
+    top: 311.57px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.filter {
+    position: absolute;
+    width: 1440px;
+    height: 846px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(125, 46, 185, 0.45);
+    mix-blend-mode: normal;
+}
+
+section {
+    position: absolute;
+    width: 1420px;
+    height: 430px;
+    left: 10px;
+    top: 480px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+form {
+    position: absolute;
+    width: 273px;
+    height: 121px;
+    left: 260px;
+    top: 100px;
+}
+
+button {
+    position: absolute;
+    width: 140px;
+    height: 41px;
+    top: 80px;
+
+    background: #9C27B0;
+    box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+    border-radius: 30px;
+}
+
+button p {
+    position: absolute;
+    left: 45px;
+    top: 0%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+
+}
+
+.footer {
+    position: absolute;
+    width: 294px;
+    height: 14px;
+    left: 573px;
+    top: 1009px;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
