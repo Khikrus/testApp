@@ -78,7 +78,7 @@ h1 {
     color: #F44336;
 }
 
-input[type="text"] {
+input[type="search"] {
     width: 263px; /* Ширина поля */
     box-sizing: border-box; /* Ширина не учитывает padding */
 
@@ -98,6 +98,15 @@ input[type="text"] {
     background: transparent; /* Прозрачный фон */
    }
 
+input[type="search"]::-webkit-search-cancel-button {
+    position:relative;
+
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background: url(img/ICON.png); 
+}
+
 input[type="submit"] {
     width: 140px;
     height: 41px;
@@ -113,16 +122,6 @@ input[type="submit"] {
     border: none;
     border-radius: 30px;
 } 
-
-.icon-error {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 242px;
-    top: 12px;
-
-    background: url(img/ICON.png);
-}
 
 .weather {
     position: absolute;
