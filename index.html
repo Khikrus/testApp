@@ -8,21 +8,23 @@
 </head>
 <body>
     <header>
-        <div class="filter">
+        <div class="text">
             <h1>Прогноз погоды</h1>
             <p>Тренировочное приложение</p>
         </div>
-        <div class="bg2"></div>
-        <div class="bg">
-            <form class="formBox" action="">
-                <input type="text">
-                <input type="submit" value="ИСКАТЬ" class="button">
-            </form>
-            <div class="weather"> 
-                Город
-            </div>
-        </div>
     </header>
+    <div class="bg">
+        <form class="form-search" action="">
+
+                <div class="error-input">Название</div>
+                <div class="icon-error"></div>
+                <input type="search">
+                <div class="error-input">Населенный пункт не найден</div>
+                <input type="submit" value="ИСКАТЬ" class="button">
+
+        </form>
+        <div class="form-city">Город</div>
+    </div>
     <footer>
         <div class="footer">
             <p>Приложение прогноза погоды, автор — Иванов Иван</p>
